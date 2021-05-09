@@ -7,3 +7,4 @@ with open("day1input.txt", "r") as input_file:
     for line in input_file.readlines():
         count += calculateFuel(int(line))
     print(count)
+    
